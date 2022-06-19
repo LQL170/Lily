@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Build the Docker image
-        run: docker build . --file .server.Dockerfile --tag lily_demo
+        run: |
+          docker build . --file .server.Dockerfile --tag lily_demo
           docker tag lily_demo registry.cn-beijing.aliyuncs.com/medomino_demo/lily_demo
           docker push registry.cn-beijing.aliyuncs.com/medomino_demo/lily_demo
