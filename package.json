@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "devDependencies": {
+    "@m170/tsconfig": "^1.0.5",
+    "@types/node": "^16.11.39",
+    "@types/pdfkit": "^0.12.6",
+    "pino-pretty": "^8.0.0"
+  },
+  "dependencies": {
+    "@m170/fastify": "1.0.10",
+    "@m170/sql": "^1.0.10",
+    "@m170/types": "^1.0.6",
+    "@m170/utils": "^1.0.35",
+    "form-data": "^4.0.0",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.13.0",
+    "pino": "^8.0.0",
+    "tslib": "^2.4.0"
+  }
+}
